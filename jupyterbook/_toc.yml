@@ -1,0 +1,215 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+options:
+  numbered: true
+parts:
+  - caption: "Syllabus \U0001F4DC"
+    chapters:
+      - file: syllabus/index_syllabus
+        title: "Syllabus"
+        sections:
+          - file: syllabus/1_Intro
+            title: "1.0 Introduction"
+          - file: syllabus/2_Contact_Process
+            title: "2.0 Contact Information"
+          - file: syllabus/3_Student_Learning_Information
+            title: "3.0 Student Learning Information"
+          - file: syllabus/4_Course_Materials
+            title: "4.0 Course Materials"
+          - file: syllabus/5_Course_Schedule
+            title: "5.0 Course Schedule"
+          - file: syllabus/6_Earning_Credit
+            title: "6.0 Earning Credit"
+          - file: syllabus/7_Expectations_of_Students
+            title: "7.0 Expectations of Students"
+          - file: syllabus/8_Academic_Policies
+            title: "8.0 Academic Policies"
+          - file: syllabus/9_Counseling_Services
+            title: "9.0 Counseling Services"
+          - file: syllabus/10_Tips_For_Success
+            title: "10.0 Tips For Success"
+  - caption: "Week 1\uFE0F\u20E3"
+    chapters:
+      - file: week1/lecture1/Intro
+        title: "Lecture 👩‍🏫"
+        sections:
+          - file: week1/lecture1/1_1_Why_Coding_is_the_most_important_skill
+          - file: week1/lecture1/1_5_Accessing_Course_Content
+          - file: week1/lecture1/1_6_How_to_Use_Jupyterhub
+          - file: week1/lecture1/1_7_Activity_1_Using_the_Jupyter_Hub
+          - file: week1/lecture1/1_8_Introduction_to_Python
+          - file: week1/lecture1/1_9_Modules_and_Packages
+          - file: week1/lecture1/1_10_Programming_Basics
+          - file: week1/lecture1/1_11_Operators
+          - file: week1/lecture1/1_12_Variables
+          - file: week1/lecture1/1_13_Activity_1_2
+      - file: week1/lab1/lab_1-assignment-workflow
+        title: 🧪 Lab 1 Assignment Workflow
+      - file: week1/homework1/Homework_1_Hello_World_Python
+        title: 🏡📝 Homework 1 Hello World Python
+      - file: week1/NOTE_re-running_actions
+  - caption: "Week 2️⃣"
+    chapters:
+      - file: week2/lecture2/Intro
+        title: "Lecture 👩‍🏫"
+        sections:
+          - file: week2/lecture2/2_1_Modules_and_Packages
+          - file: week2/lecture2/2_2_Programming_Basics
+          - file: week2/lecture2/2_3_Operators
+          - file: week2/lecture2/2_4_Variables
+          - file: week2/lecture2/2_5_Activity_2_1
+          - file: week2/lecture2/2_6_Data_Types_non_num
+          - file: week2/lecture2/2_7_Dictionaries
+          - file: week2/lecture2/2_8_Lists_Tuples
+          - file: week2/lecture2/2_9_Working_with_Strings
+          - file: week2/lecture2/2_10_Activity_2_2_Profanity_Detector
+      - file: week2/lab2/week_2_lab_intro
+        title: 📝 Week 2 - Lab Intro
+      - file: week2/lab2/lab2-scrabble
+        title: 🧪 Lab 2 Scrabble
+      - file: week2/homework2/hw2-math
+        title: 🏡📝 Homework 2 Using Python to Solve Math Problems
+      - file: week2/quiz2/quiz_2_Hello_World_Python
+        title: 🤔❓ Quiz 2 Hello World Python
+  # - caption: "Week 3️⃣"
+  #   chapters:
+  #     - file: week3/lecture3/Intro
+  #       title: "Lecture 👩‍🏫"
+  #       sections:
+  #         - file: week3/lecture3/3_1_Numerical_Data_Types
+  #         - file: week3/lecture3/3_2_Dictionaries
+  #         - file: week3/lecture3/3_3_Lists_Tuples
+  #         - file: week3/lecture3/3_4_Activity_1_SignalProcessing_Activity
+  #         - file: week3/lecture3/3_5_Intro_to_numpy
+  #         - file: week3/lecture3/3_6_Activity_2_Image_Activity
+  #     - file: week3/week_3_lab_intro
+  #     - file: week3/lab3/lab3-image
+  #     - file: week3/homework3/hw3-types
+  #     - file: week3/quiz3/jbook-quiz-3-math
+  #       title: 🤔❓ Quiz 3 Using Python to Solve Math Problems
+  # - caption: "Week 4️⃣"
+  #   chapters:
+  #     - file: week4/lecture4/lecture4
+  #       title: "Lecture 👩‍🏫"
+  #       sections:
+  #         - file: week4/lecture4/0_Conceptual_Overview
+  #         - file: week4/lecture4/1_Introduction_to_functions
+  #         - file: week4/lecture4/2_activity_4_1
+  #         - file: week4/lecture4/3_Functions_as_objects
+  #         - file: week4/lecture4/4_Dynamic_Behavior_in_Python
+  #         - file: week4/lecture4/5_activity_4_2
+  #         - file: week4/lecture4/6_Debugging_in_functions
+  #         - file: week4/lecture4/7_Functions_that_Return
+  #         - file: week4/lecture4/8_activity_4_3
+  #         - file: week4/lecture4/9_activity_4_4
+  #     - file: week4/lab4/week_4_lab_intro
+  #       title: 📝Week 4 - Lab Intro
+  #     - file: week4/lab4/lab4-classifier
+  #       title: 🧪 Lab Activity - Training a Neural Network Classifier
+  #     - file: week4/homework4/hw4-functions
+  #       title: 🏡📝 Homework 4 - Functions
+  #     - file: week4/quiz4/jbook-quiz4-types
+  #       title: 🤔❓ Quiz 4 DataTypes
+  #     - file: week4/midtermPractice/midtermPractice
+  #       title: 💪 Midterm Practice
+  # - caption: "Week 5️⃣"
+  #   chapters:
+  #     - file: week5/midterm_exam
+  #       title: 📖😊🎓 Midterm Exam
+  #     - file: week5/lab5/lab5-installAnaconda
+  #       title: 🧪🖥 Week 5 - Set up Local Jupyter Notebooks
+  # - caption: "Week 6️⃣"
+  #   chapters:
+  #     - file: week6/lecture6/lecture6
+  #       title: "Lecture 👩‍🏫"
+  #       sections:
+  #         - file: week6/lecture6/1_intro_branching
+  #         - file: week6/lecture6/2_activity_6_1
+  #         - file: week6/lecture6/3_intro_loops_integrals
+  #         - file: week6/lecture6/4_activity_6_2
+  #         - file: week6/lecture6/5_activity_6_3
+  #     - file: week6/lab6/week_6_lab_intro
+  #       title: 📝Week 6 - Lab Intro
+  #     - file: week6/lab6/lab6-RPS
+  #       title: 🧪 Lab 6 Rock Paper Scissors
+  #     - file: week6/hw6/hw6-branching
+  #       title: 🏡📝 Homework 6 - Branching
+  # - caption: "Lecture 7️⃣"
+  #   chapters:
+  #     - file: week7/lecture7/0_Lecture_7
+  #       title: "👩‍🏫 Lecture 7"
+  #       sections:
+  #         - file: week7/lecture7/1_Iterators
+  #         - file: week7/lecture7/2_Nested_Lists
+  #         - file: week7/lecture7/3_activity_current
+  #         - file: week7/lecture7/4_break_continue
+  #         - file: week7/lecture7/5_activity_modulus_operator
+  #         - file: week7/lecture7/6_enumerate
+  #         - file: week7/lecture7/7_file_handling
+  #     - file: week7/lab7/week_7_lab_intro
+  #       title: "📝 Week 7 - Lab Intro"
+  #     - file: week7/lab7/lab7-DNA
+  #       title: "🧪 Lab 7: DNA Analysis"
+  #     - file: week7/hw7/hw7-loops
+  #       title: "🏡📝 Homework 7 - Loops and Flow Control"
+  # - caption: "Week 8"
+  #   chapters:
+  #     - file: week8/lecture8/Week_8
+  #       title: "👩‍🏫 Lecture 8"
+  #       sections:
+  #         - file: week8/lecture8/1_Introduction_to_Classes
+  #           title: "📝Classes"
+  #         - file: week8/lecture8/2_Activity_1_building_a_sensor
+  #           title: "💻 Activity: Building a Sensor Class"
+  #         - file: week8/lecture8/3_Creating_Multiple_Objects_of_a_Class
+  #           title: "📝 Creating Multiple Objects of a Class"
+  #         - file: week8/lecture8/3_Inheritance
+  #           title: "📝 Inheritance"
+  #         - file: week8/lecture8/4_Creating_a_Circuit_Class
+  #           title: "📝 Creating a Class for Storing and Operating on Information"
+  #         - file: week8/lecture8/5_Activity_2_Make_Parallel_Circuit_Class
+  #           title: "💻 Activity: Create a Class for Parallel Circuits"
+  #         - file: week8/lecture8/5_sol_Activity_2_Make_Parallel_Circuit_Class
+  #           title: "💻 Activity: Create a Class for Parallel Circuits (solution)"
+  #         - file: week8/lecture8/6_Activity_lrc
+  #           title: "💻 Activity: Building the game LCR"
+  #     - file: week8/lab8/Week_8_lab_intro
+  #       title: "🧪 📝 Week 8 - Lab Intro"
+  #     - file: week8/lab8/lab8-audio
+  #       title: "🧪 Lab 8: Audio Synthesis with Numpy"
+  #     - file: week8/hw8/hw8-strings
+  #       title: "🏡📝 Homework 8"
+  #     - file: week8/quiz8/quiz8practice-functions-loops
+  #       title: "🤔❓ ⌛️ Quiz 8 Practice - Using Functions"
+  #     - file: week8/quiz8/quiz8link
+  #       title: "🤔❓ Quiz Link"
+  # - caption: "week 9"
+  #   chapters:
+  #     - file: week9/lecture9/0_lecture9
+  #       title: "👩‍🏫 Lecture 9"
+  #       sections:
+  #         - file: week9/lecture9/1_Introduction_plotting
+  #         - file: week9/lecture9/2_Activity_1_refining_a_plot
+  #         - file: week9/lecture9/3_Colormaps
+  #         - file: week9/lecture9/4_Activity_2_Bubble_plot
+  #         - file: week9/lecture9/5_Curve_Fitting
+  #         - file: week9/lecture9/6_Interactive_Graphics
+  #     - file: week9/lab9/lab9-pollutant
+  #       title: "🧪 Lab 9: Pollutant Triangulation"
+  #     - file: week9/lab9/week_9_lab_intro
+  #       title: "🧪 📝 Week 9 - Lab Intro"
+  #     - file: week9/hw9/hw9-classes
+  #       title: "🏡📝 Homework 9"
+  #     - file: week9/quiz9/quiz9-classes-practice
+  #       title: "🤔❓ ⌛️ Quiz 9 Practice - Classes"
+  #     - file: week9/quiz9/quiz9link
+  #       title: "🤔❓ Quiz Link"
+  # - caption: "week 10"
+  #   chapters:
+  #     - file: week10/Final_Exam_Practice
+  #       title: "📚✍️🧠 Practice Final"
+  #     - file: week10/lab10_fitting
+  #       title: "🧪 Lab 10: Fitting"
