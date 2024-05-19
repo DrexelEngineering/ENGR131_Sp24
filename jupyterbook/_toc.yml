@@ -134,53 +134,53 @@ parts:
         title: 🧪 Lab 6 Rock Paper Scissors
       - file: week6/hw6/hw6-branching
         title: 🏡📝 Homework 6 - Branching
-  # - caption: "Lecture 7️⃣"
-  #   chapters:
-  #     - file: week7/lecture7/0_Lecture_7
-  #       title: "👩‍🏫 Lecture 7"
-  #       sections:
-  #         - file: week7/lecture7/1_Iterators
-  #         - file: week7/lecture7/2_Nested_Lists
-  #         - file: week7/lecture7/3_activity_current
-  #         - file: week7/lecture7/4_break_continue
-  #         - file: week7/lecture7/5_activity_modulus_operator
-  #         - file: week7/lecture7/6_enumerate
-  #         - file: week7/lecture7/7_file_handling
-  #     - file: week7/lab7/week_7_lab_intro
-  #       title: "📝 Week 7 - Lab Intro"
-  #     - file: week7/lab7/lab7-DNA
-  #       title: "🧪 Lab 7: DNA Analysis"
-  #     - file: week7/hw7/hw7-loops
-  #       title: "🏡📝 Homework 7 - Loops and Flow Control"
-  # - caption: "Week 8"
-  #   chapters:
-  #     - file: week8/lecture8/Week_8
-  #       title: "👩‍🏫 Lecture 8"
-  #       sections:
-  #         - file: week8/lecture8/1_Introduction_to_Classes
-  #           title: "📝Classes"
-  #         - file: week8/lecture8/2_Activity_1_building_a_sensor
-  #           title: "💻 Activity: Building a Sensor Class"
-  #         - file: week8/lecture8/3_Creating_Multiple_Objects_of_a_Class
-  #           title: "📝 Creating Multiple Objects of a Class"
-  #         - file: week8/lecture8/3_Inheritance
-  #           title: "📝 Inheritance"
-  #         - file: week8/lecture8/4_Creating_a_Circuit_Class
-  #           title: "📝 Creating a Class for Storing and Operating on Information"
-  #         - file: week8/lecture8/5_Activity_2_Make_Parallel_Circuit_Class
-  #           title: "💻 Activity: Create a Class for Parallel Circuits"
-  #         - file: week8/lecture8/5_sol_Activity_2_Make_Parallel_Circuit_Class
-  #           title: "💻 Activity: Create a Class for Parallel Circuits (solution)"
-  #         - file: week8/lecture8/6_Activity_lrc
-  #           title: "💻 Activity: Building the game LCR"
-  #     - file: week8/lab8/Week_8_lab_intro
-  #       title: "🧪 📝 Week 8 - Lab Intro"
-  #     - file: week8/lab8/lab8-audio
-  #       title: "🧪 Lab 8: Audio Synthesis with Numpy"
-  #     - file: week8/hw8/hw8-strings
-  #       title: "🏡📝 Homework 8"
-  #     - file: week8/quiz8/quiz8practice-functions-loops
-  #       title: "🤔❓ ⌛️ Quiz 8 Practice - Using Functions"
+  - caption: "Lecture 7️⃣"
+    chapters:
+      - file: week7/lecture7/0_Lecture_7
+        title: "👩‍🏫 Lecture 7"
+        sections:
+          - file: week7/lecture7/1_Iterators
+          - file: week7/lecture7/2_Nested_Lists
+          - file: week7/lecture7/3_activity_current
+          - file: week7/lecture7/4_break_continue
+          - file: week7/lecture7/5_activity_modulus_operator
+          - file: week7/lecture7/6_enumerate
+          - file: week7/lecture7/7_file_handling
+      - file: week7/lab7/week_7_lab_intro
+        title: "📝 Week 7 - Lab Intro"
+      - file: week7/lab7/lab7-DNA
+        title: "🧪 Lab 7: DNA Analysis"
+      - file: week7/hw7/hw7-loops
+        title: "🏡📝 Homework 7 - Loops and Flow Control"
+  - caption: "Week 8"
+    chapters:
+      - file: week8/lecture8/Week_8
+        title: "👩‍🏫 Lecture 8"
+        sections:
+          - file: week8/lecture8/1_Introduction_to_Classes
+            title: "📝Classes"
+          - file: week8/lecture8/2_Activity_1_building_a_sensor
+            title: "💻 Activity: Building a Sensor Class"
+          - file: week8/lecture8/3_Creating_Multiple_Objects_of_a_Class
+            title: "📝 Creating Multiple Objects of a Class"
+          - file: week8/lecture8/3_Inheritance
+            title: "📝 Inheritance"
+          - file: week8/lecture8/4_Creating_a_Circuit_Class
+            title: "📝 Creating a Class for Storing and Operating on Information"
+          - file: week8/lecture8/5_Activity_2_Make_Parallel_Circuit_Class
+            title: "💻 Activity: Create a Class for Parallel Circuits"
+          - file: week8/lecture8/5_sol_Activity_2_Make_Parallel_Circuit_Class
+            title: "💻 Activity: Create a Class for Parallel Circuits (solution)"
+          - file: week8/lecture8/6_Activity_lrc
+            title: "💻 Activity: Building the game LCR"
+      - file: week8/lab8/Week_8_lab_intro
+        title: "🧪 📝 Week 8 - Lab Intro"
+      - file: week8/lab8/lab8-audio
+        title: "🧪 Lab 8: Audio Synthesis with Numpy"
+      - file: week8/hw8/hw8-strings
+        title: "🏡📝 Homework 8"
+      - file: week8/quiz8/quiz8practice-functions-loops
+        title: "🤔❓ ⌛️ Quiz 8 Practice - Using Functions"
   #     - file: week8/quiz8/quiz8link
   #       title: "🤔❓ Quiz Link"
   # - caption: "week 9"
