@@ -200,13 +200,13 @@ parts:
         title: "🧪 📝 Week 9 - Lab Intro"
       - file: week9/hw9/hw9-classes
         title: "🏡📝 Homework 9"
-  #     - file: week9/quiz9/quiz9-classes-practice
-  #       title: "🤔❓ ⌛️ Quiz 9 Practice - Classes"
-  #     - file: week9/quiz9/quiz9link
-  #       title: "🤔❓ Quiz Link"
-  # - caption: "week 10"
-  #   chapters:
-  #     - file: week10/Final_Exam_Practice
-  #       title: "📚✍️🧠 Practice Final"
-  #     - file: week10/lab10_fitting
-  #       title: "🧪 Lab 10: Fitting"
+  - caption: "week 10"
+    chapters:
+      - file: week10/Final_Exam_Practice1
+        title: "📚✍️🧠 Practice Final 1"
+      - file: week10/Final_Exam_Practice2_harderversion
+        title: "📚✍️🧠 Practice Final 2 - a harder version"
+#      - file: week10/lab10/week_10_lab_intro
+#        title: "Lab 10 Intro"
+#      - file: week10/lab10-fitting
+#        title: "🧪 Lab 10: Fitting"
