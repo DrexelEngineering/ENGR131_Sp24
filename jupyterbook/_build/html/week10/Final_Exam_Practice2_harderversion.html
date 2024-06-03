@@ -67,6 +67,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'week10/Final_Exam_Practice2_harderversion';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="📝Week 10 - Lab Intro" href="lab10/week_10_lab_intro.html" />
     <link rel="prev" title="⌛️ Practice Final Exam" href="Final_Exam_Practice1.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -330,6 +331,11 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="Final_Exam_Practice1.html">📚✍️🧠 Practice Final 1</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">📚✍️🧠 Practice Final 2 - a harder version</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lab10/week_10_lab_intro.html">Lab 10 Intro</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lab10/lab10-fitting.html">💻🧪 Lab 10: Combining Concepts to Build Interoperable Code for Plotting</a></li>
+
+
+
 </ul>
 
     </div>
@@ -575,19 +581,11 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instructions">Instructions</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-1-entering-your-information-for-credit">Part 1: Entering Your Information for Credit</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#before-you-begin">Before you begin</a></li>
-</ul>
-</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#question-5-making-a-graph">Question 5: Making a Graph</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#question-6-using-data-types-30-points">Question 6: Using Data Types (30 Points)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#question-7-building-a-thermometer-36-points">Question 7: Building a Thermometer (36 Points)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#question-8-determining-a-price-for-a-circuit-40-points">Question 8: Determining a Price for a Circuit (40 Points)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#question-9-plotting-and-fitting-60-points">Question 9: Plotting and Fitting (60 Points):</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#validating-your-log-file">Validating your log file</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#submitting-your-assignment">Submitting Your Assignment</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#viewing-your-score">Viewing your score</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fin">Fin</a></li>
 </ul>
             </nav>
         </div>
@@ -599,118 +597,12 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <div class="cell tag_skip-execution docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Initialize Otter</span>
-<span class="kn">import</span> <span class="nn">otter</span>
-<span class="n">grader</span> <span class="o">=</span> <span class="n">otter</span><span class="o">.</span><span class="n">Notebook</span><span class="p">(</span><span class="s2">&quot;Final_Exam_Practice.ipynb&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<section class="tex2jax_ignore mathjax_ignore" id="practice-final-exam">
+  <section class="tex2jax_ignore mathjax_ignore" id="practice-final-exam">
 <h1>⌛️ Practice Final Exam<a class="headerlink" href="#practice-final-exam" title="Permalink to this heading">#</a></h1>
-<p>This Practice Final Exam is designed to test your mastery of the Python programming language. You will be asked to respond to a series of questions both multiple choice and short answer problems using python. 10% of the points earned on this practice final prior to the exam will be added to your final exam score.</p>
+<p>This Practice Final Exam is designed to test your mastery of the Python programming language. You will be asked to respond to a series of programming problems.</p>
 <section id="instructions">
 <h2>Instructions<a class="headerlink" href="#instructions" title="Permalink to this heading">#</a></h2>
-<p>You are allowed to use anything with the python kernel to help you solve the problems. You must run all code and press the submit button when shown to record your grades. If you do not do this your scores might not be recorded. All of your responses should be persistent if you restart the kernel, however entries can only be updated if you run the cell and hit submit.</p>
-</section>
-<section id="part-1-entering-your-information-for-credit">
-<h2>Part 1: Entering Your Information for Credit<a class="headerlink" href="#part-1-entering-your-information-for-credit" title="Permalink to this heading">#</a></h2>
-<p>To receive credit for assignments, it is important we can identify your work from others. To do this, we will ask you to enter your information in the following code block.</p>
-<p>You must hit submit and see the message saying the data is saved. If you do not see this message contact your instructor to ensure you are getting credit for your work.</p>
-<p><strong>Note: do not delete the output.log file or the .responses.json file or you might lose your current work.</strong></p>
-<section id="before-you-begin">
-<h3>Before you begin<a class="headerlink" href="#before-you-begin" title="Permalink to this heading">#</a></h3>
-<p>Run the block of code at the top of the notebook that imports and sets up the autograder. This will allow you to check your work.</p>
-<div class="cell tag_skip-execution docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pkg_resources</span>
-<span class="kn">from</span> <span class="nn">subprocess</span> <span class="kn">import</span> <span class="n">call</span>
-<span class="kn">import</span> <span class="nn">sys</span>
-
-<span class="n">package_name</span> <span class="o">=</span> <span class="s1">&#39;ENGR131_Util_2024&#39;</span>
-<span class="n">version</span> <span class="o">=</span> <span class="s1">&#39;1.0.0&#39;</span>
-<span class="n">package_version</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">package_name</span><span class="si">}</span><span class="s1">==</span><span class="si">{</span><span class="n">version</span><span class="si">}</span><span class="s1">&#39;</span>
-
-<span class="k">try</span><span class="p">:</span>
-    <span class="c1"># Check if the package and version are installed</span>
-    <span class="n">pkg_resources</span><span class="o">.</span><span class="n">require</span><span class="p">(</span><span class="n">package_version</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">package_version</span><span class="si">}</span><span class="s1"> is already installed.&#39;</span><span class="p">)</span>
-<span class="k">except</span> <span class="n">pkg_resources</span><span class="o">.</span><span class="n">DistributionNotFound</span><span class="p">:</span>
-    <span class="c1"># If not installed, install the package</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">package_version</span><span class="si">}</span><span class="s1"> not found. Installing...&#39;</span><span class="p">)</span>
-    <span class="n">call</span><span class="p">([</span><span class="n">sys</span><span class="o">.</span><span class="n">executable</span><span class="p">,</span> <span class="s1">&#39;-m&#39;</span><span class="p">,</span> <span class="s1">&#39;pip&#39;</span><span class="p">,</span> <span class="s1">&#39;install&#39;</span><span class="p">,</span> <span class="n">package_version</span><span class="p">])</span>
-<span class="k">except</span> <span class="n">pkg_resources</span><span class="o">.</span><span class="n">VersionConflict</span><span class="p">:</span>
-    <span class="c1"># If a different version is installed, you can choose to upgrade/downgrade</span>
-    <span class="n">installed_packages</span> <span class="o">=</span> <span class="p">{</span><span class="n">dist</span><span class="o">.</span><span class="n">key</span><span class="p">:</span> <span class="n">dist</span><span class="o">.</span><span class="n">version</span> <span class="k">for</span> <span class="n">dist</span> <span class="ow">in</span> <span class="n">pkg_resources</span><span class="o">.</span><span class="n">working_set</span><span class="p">}</span>
-    <span class="n">installed_version</span> <span class="o">=</span> <span class="n">installed_packages</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">package_name</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">package_name</span><span class="si">}</span><span class="s1"> </span><span class="si">{</span><span class="n">installed_version</span><span class="si">}</span><span class="s1"> is installed, but </span><span class="si">{</span><span class="n">version</span><span class="si">}</span><span class="s1"> is required.&#39;</span><span class="p">)</span>
-    <span class="c1"># Optionally, upgrade or downgrade the package to the required version</span>
-    <span class="n">call</span><span class="p">([</span><span class="n">sys</span><span class="o">.</span><span class="n">executable</span><span class="p">,</span> <span class="s1">&#39;-m&#39;</span><span class="p">,</span> <span class="s1">&#39;pip&#39;</span><span class="p">,</span> <span class="s1">&#39;install&#39;</span><span class="p">,</span> <span class="s1">&#39;--upgrade&#39;</span><span class="p">,</span> <span class="n">package_version</span><span class="p">])</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell tag_skip-execution docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">ENGR131_Util_2024</span> <span class="kn">import</span> <span class="n">responses</span><span class="p">,</span> <span class="n">StudentInfoForm</span><span class="p">,</span> <span class="n">cell_logger</span>
-<span class="kn">from</span> <span class="nn">ENGR131_Util_2024</span> <span class="kn">import</span> <span class="n">submit_question</span><span class="p">,</span> <span class="n">ResponseStore</span><span class="p">,</span> <span class="n">ValidateLogFile</span>
-
-
-<span class="c1"># Register the log function to be called before any cell is executed</span>
-<span class="n">get_ipython</span><span class="p">()</span><span class="o">.</span><span class="n">events</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s1">&#39;pre_run_cell&#39;</span><span class="p">,</span> <span class="n">cell_logger</span><span class="p">)</span>
-<span class="n">responses</span><span class="p">[</span><span class="s2">&quot;assignment&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;practicefinal_1&quot;</span>
-
-<span class="n">StudentInfoForm</span><span class="p">(</span><span class="o">**</span><span class="n">responses</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<p><strong>Question 1: Match the Correct Definition</strong></p>
-<p><em>18 points</em></p>
-<p>Please run the block of code below and respond to the prompts with the most suitable response.</p>
-<p>Make sure you hit the submit button or your grade will not be recorded. Confirmation that your responses are recorded will appear below the code block. We will only grade your most recent set of responses. You can submit entries as many times as you like.</p>
-<div class="cell tag_skip-execution docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># from ENGR131_Util_2024 import DataTypes</span>
-<span class="kn">from</span> <span class="nn">ENGR131_Util_2024</span> <span class="kn">import</span> <span class="n">responses</span>
-<span class="kn">from</span> <span class="nn">ENGR131_Util_2024</span> <span class="kn">import</span> <span class="n">TypesQuestion</span>
-
-<span class="n">TypesQuestion</span><span class="p">(</span><span class="o">**</span><span class="n">responses</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<p><strong>Question 2: Select the option that matches the definition</strong></p>
-<p><em>9 points</em></p>
-<p>Please run the block of code below and respond to the prompts with the most suitable response.</p>
-<p>Make sure you hit the submit button or your grade will not be recorded. Confirmation that your responses are recorded will appear below the code block. We will only grade your most recent set of responses. You can submit entries as many times as you like.</p>
-<div class="cell tag_skip-execution docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">ENGR131_Util_2024</span> <span class="kn">import</span> <span class="n">MCQQuestion</span>
-<span class="kn">from</span> <span class="nn">ENGR131_Util_2024</span> <span class="kn">import</span> <span class="n">responses</span>
-
-<span class="n">MCQQuestion</span><span class="p">(</span><span class="o">**</span><span class="n">responses</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<p><strong>Question 3: Select all statements which are TRUE</strong></p>
-<p><em>20 points</em></p>
-<p>Please run the block of code below and respond to the prompts with the most suitable response.</p>
-<p>Make sure you hit the submit button or your grade will not be recorded. Confirmation that your responses are recorded will appear below the code block. We will only grade your most recent set of responses. You can submit entries as many times as you like.</p>
-<div class="cell tag_skip-execution docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">ENGR131_Util_2024</span> <span class="kn">import</span> <span class="n">responses</span>
-<span class="kn">from</span> <span class="nn">ENGR131_Util_2024</span> <span class="kn">import</span> <span class="n">SelectMany</span>
-
-
-<span class="n">SelectMany</span><span class="p">(</span><span class="o">**</span><span class="n">responses</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
+<p>You are allowed to use anything with the python kernel to help you solve the problems.</p>
 <p><strong>Question 4: Reading and Interpreting Python Code</strong></p>
 <p><em>50 points</em></p>
 <p>You are provided with the following code:</p>
@@ -767,7 +659,6 @@ document.write(`
 </div>
 </div>
 </div>
-</section>
 </section>
 <section id="question-5-making-a-graph">
 <h2>Question 5: Making a Graph<a class="headerlink" href="#question-5-making-a-graph" title="Permalink to this heading">#</a></h2>
@@ -1283,36 +1174,6 @@ $<span class="math notranslate nohighlight">\(Ae^{\frac{-(x-b)^2}{2c^2}}\)</span
 </div>
 </div>
 </section>
-<section id="validating-your-log-file">
-<h2>Validating your log file<a class="headerlink" href="#validating-your-log-file" title="Permalink to this heading">#</a></h2>
-<p>Before your submit your results we would recommend running the following command to validate your log file. This will ensure that you have followed the correct format and that your log file is valid.</p>
-<div class="cell tag_skip-execution docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ValidateLogFile</span><span class="p">(</span><span class="s2">&quot;./output.log&quot;</span><span class="p">,</span> <span class="n">responses</span><span class="p">[</span><span class="s2">&quot;assignment&quot;</span><span class="p">],</span> <span class="mi">4</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</section>
-<section id="submitting-your-assignment">
-<h2>Submitting Your Assignment<a class="headerlink" href="#submitting-your-assignment" title="Permalink to this heading">#</a></h2>
-<p>To submit your assignment please use the following link the assignment on GitHub classroom.</p>
-<p>Use this <a class="reference external" href="https://classroom.github.com/a/ClDJl_RS">link</a> to navigate to the assignment on GitHub classroom.</p>
-<p><strong>Please submit just your output.log file. No other files are needed.</strong></p>
-<p>If you need further instructions on submitting your assignment, please ask your TA during lab.</p>
-</section>
-<section id="viewing-your-score">
-<h2>Viewing your score<a class="headerlink" href="#viewing-your-score" title="Permalink to this heading">#</a></h2>
-<p>Each <code class="docutils literal notranslate"><span class="pre">log</span></code> file you have uploaded will have a file with the name of your file + <code class="docutils literal notranslate"><span class="pre">Grade_Report.md</span></code>. You can view this file by clicking on the file name. This will show you the results of the autograder.</p>
-<p><strong>Make sure you run your code, and run the tests. If you do not run the test you will not get credit for your work.</strong></p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>In python and particularly jupyter notebooks it is common that during testing you run cells in a different order, or run cells and modify them. This can cause there to be local variables needed for your solution that would not be recreated on running your code again from scratch. Your assignment will be graded based on running your code from scratch. This means before you submit your assignment you should restart the kernel and run all cells. You can do this by clicking <code class="docutils literal notranslate"><span class="pre">Kernel</span></code> and selecting <code class="docutils literal notranslate"><span class="pre">Restart</span> <span class="pre">and</span> <span class="pre">Run</span> <span class="pre">All</span></code>. If you code does not run as expected after restarting the kernel and running all cells it means you have an error in your code.</p>
-</div>
-</section>
-<section id="fin">
-<h2>Fin<a class="headerlink" href="#fin" title="Permalink to this heading">#</a></h2>
-</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -1354,6 +1215,15 @@ $<span class="math notranslate nohighlight">\(Ae^{\frac{-(x-b)^2}{2c^2}}\)</span
         <p class="prev-next-title">⌛️ Practice Final Exam</p>
       </div>
     </a>
+    <a class="right-next"
+       href="lab10/week_10_lab_intro.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">📝Week 10 - Lab Intro</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
@@ -1370,19 +1240,11 @@ $<span class="math notranslate nohighlight">\(Ae^{\frac{-(x-b)^2}{2c^2}}\)</span
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instructions">Instructions</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-1-entering-your-information-for-credit">Part 1: Entering Your Information for Credit</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#before-you-begin">Before you begin</a></li>
-</ul>
-</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#question-5-making-a-graph">Question 5: Making a Graph</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#question-6-using-data-types-30-points">Question 6: Using Data Types (30 Points)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#question-7-building-a-thermometer-36-points">Question 7: Building a Thermometer (36 Points)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#question-8-determining-a-price-for-a-circuit-40-points">Question 8: Determining a Price for a Circuit (40 Points)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#question-9-plotting-and-fitting-60-points">Question 9: Plotting and Fitting (60 Points):</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#validating-your-log-file">Validating your log file</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#submitting-your-assignment">Submitting Your Assignment</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#viewing-your-score">Viewing your score</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fin">Fin</a></li>
 </ul>
   </nav></div>
 

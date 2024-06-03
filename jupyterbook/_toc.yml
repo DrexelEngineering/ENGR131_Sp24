@@ -206,7 +206,7 @@ parts:
         title: "📚✍️🧠 Practice Final 1"
       - file: week10/Final_Exam_Practice2_harderversion
         title: "📚✍️🧠 Practice Final 2 - a harder version"
-#      - file: week10/lab10/week_10_lab_intro
-#        title: "Lab 10 Intro"
-#      - file: week10/lab10-fitting
-#        title: "🧪 Lab 10: Fitting"
+      - file: week10/lab10/week_10_lab_intro
+        title: "Lab 10 Intro"
+      - file: week10/lab10/lab10-fitting
+        title: "🧪 Lab 10: Fitting"
